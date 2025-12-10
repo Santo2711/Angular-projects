@@ -1,0 +1,27 @@
+<div class="task-container">
+  <h2 class="header">Task Overview</h2>
+
+  <div class="task-list">
+    <div class="task-card" *ngFor="let task of tasks">
+      
+      <div class="task-header">
+        <span class="task-id">#{{ task.id }}</span>
+        <span class="status" [ngClass]="getStatusClass(task.status)">
+          {{ task.status }}
+        </span>
+      </div>
+
+      <div class="task-title">{{ task.title }}</div>
+
+      <div class="task-footer">
+        <div class="info">
+          <span class="label">Due:</span> {{ task.due }}
+        </div>
+        <div class="info">
+          <span class="label">Priority:</span> {{ task.priority }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -4,10 +4,11 @@ import { Header } from "./header/header";
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Form } from "./form/form";
+import { Nav } from './nav/nav';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, FormsModule, CommonModule, Form],
+  imports: [RouterOutlet, Header, FormsModule, CommonModule, Form,Nav],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

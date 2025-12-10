@@ -1,0 +1,28 @@
+<p>List of names:</p>
+@if(names.length>0){
+    <ul>
+        @for (name of names; track $index) {
+            <li>{{name}}</li>
+        }
+    </ul>
+}
+@else {
+    <p>No names.</p>
+}
+<input type="button" value="Show action" (click)="Show=true"/> 
+<p>I saw a man
+<ng-component *ngIf="Show">and killed him</ng-component>
+and ran away.</p>
+
+
+<h1>My First Attribute Directive</h1>
+<h2>Pick a highlight color</h2>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'" />Green
+  <input type="radio" name="colors" (click)="color='yellow'" />Yellow
+  <input type="radio" name="colors" (click)="color='cyan'" />Cyan
+</div>
+<p [appHighlight]="color">Highlight me!</p>
+
+
+<a routerLink="form">this is link to form</a>

@@ -1,0 +1,16 @@
+
+<form (submit)="addnames()">
+    <label for="name">Name:<br>
+    <input type="text" name="name" [(ngModel)]="name"><br><br></label>
+    <input type="submit" value="Submit">
+</form>
+<p>{{datas.names}}</p>
+<input type="button" value="Show Names from Service" (click)="show=true"/>
+<p>Your entered names is:</p>
+@if (show) {
+    <ul>
+        <p>{{datas.get()}}</p>
+    </ul>
+}
+
+<p>Api url: {{config.apiUrl}}<br>Version: {{config.version}}<br>Features: </p>

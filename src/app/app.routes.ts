@@ -4,6 +4,7 @@ import { Nav } from './nav/nav';
 import { PostDemoComponent } from './post-demo/post-demo';
 import { Climate } from './climate/climate';
 import { SupplyChain } from './supply-chain/supply-chain';
+import { Select } from './select/select';
 
 export const routes: Routes = [
     {
@@ -23,7 +24,10 @@ export const routes: Routes = [
         path:'climate',
         component:Climate,
     },{
-        path:'',
+        path:'supplychain',
         component:SupplyChain,
+    },{
+        path:'',
+        component:Select,
     }
 ];

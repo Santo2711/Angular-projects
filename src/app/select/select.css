@@ -38,9 +38,9 @@
 
 /* Modern Gradient Select */
 .select-gradient {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 14px 45px 14px 18px;
   font-size: 15px;
   font-weight: 600;
@@ -76,9 +76,9 @@
 
 /* Outlined Professional Select */
 .select-outlined {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 12px 40px 12px 16px;
   font-size: 14px;
   font-weight: 500;
@@ -108,9 +108,9 @@
 
 /* Minimal Clean Select */
 .select-minimal {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 10px 35px 10px 12px;
   font-size: 14px;
   font-weight: 500;
@@ -139,9 +139,9 @@
 
 /* Premium Dark Select */
 .select-dark {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 14px 45px 14px 18px;
   font-size: 15px;
   font-weight: 600;
@@ -177,9 +177,9 @@
 
 /* Rounded Pill Select */
 .select-pill {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 12px 40px 12px 20px;
   font-size: 14px;
   font-weight: 600;
@@ -208,9 +208,9 @@
 
 /* Soft Shadow Select */
 .select-shadow {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 14px 42px 14px 18px;
   font-size: 15px;
   font-weight: 500;
@@ -240,9 +240,9 @@
 
 /* Success/Green Select */
 .select-success {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 12px 40px 12px 16px;
   font-size: 14px;
   font-weight: 600;
@@ -271,9 +271,9 @@
 
 /* Warning/Orange Select */
 .select-warning {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 12px 40px 12px 16px;
   font-size: 14px;
   font-weight: 600;
@@ -302,9 +302,9 @@
 
 /* Large Select */
 .select-large {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 16px 48px 16px 20px;
   font-size: 16px;
   font-weight: 600;
@@ -333,9 +333,9 @@
 
 /* Small Compact Select */
 .select-small {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 8px 32px 8px 12px;
   font-size: 13px;
   font-weight: 500;
@@ -379,9 +379,9 @@
 }
 
 .select-with-icon {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 12px 40px 12px 44px;
   font-size: 14px;
   font-weight: 500;
@@ -410,9 +410,9 @@
 
 /* Bordered Bottom Only Select */
 .select-underline {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   padding: 10px 35px 10px 0;
   font-size: 15px;
   font-weight: 500;
